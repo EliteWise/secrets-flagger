@@ -38,5 +38,5 @@ To use this script as a git pre-commit hook:
 
 
 ### Notes
-For performance reasons, if there are numerous files and patterns, it might take some time. Future enhancements might involve optimizing this aspect.
+For performance reasons, if there are numerous files and patterns, it might take some time. Future enhancements might involve optimizing this aspect. <br />
 The script currently only checks files added, copied, or modified in the git index. Files that are untracked or unchanged won't be inspected.
