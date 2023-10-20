@@ -32,9 +32,9 @@ If any pattern is detected in the files, a warning will be displayed on the cons
 ### Integration with Git Hooks
 To use this script as a git pre-commit hook:
 
-Copy the script to `.git/hooks/pre-commit` (or in `.husky/pre-commit` with Husky) in your repository.
-Ensure the script is executable: `chmod +x .git/hooks/pre-commit` (or `chmod +x .husky/pre-commit` with Husky)
-When committing files, the script will automatically run. If a sensitive pattern is detected, the commit will be aborted.
+1. Copy the script to `.git/hooks/pre-commit` (or in `.husky/pre-commit` with Husky) in your repository. <br />
+2. Ensure the script is executable: `chmod +x .git/hooks/pre-commit` (or `chmod +x .husky/pre-commit` with Husky) <br />
+3. When committing files, the script will automatically run. If a sensitive pattern is detected, the commit will be aborted. <br />
 
 
 ### Notes
