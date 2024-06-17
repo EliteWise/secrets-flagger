@@ -19,12 +19,12 @@ The script checks for the following patterns by default:
 ### Usage
 Ensure the script is executable:
 ```bash
-chmod +x tester.sh
+chmod +x flagger.sh
 ```
 
 Run the script in your repository:
 ```bash
-./tester.sh
+./flagger.sh
 ```
 
 If any pattern is detected in the files, a warning will be displayed on the console.
